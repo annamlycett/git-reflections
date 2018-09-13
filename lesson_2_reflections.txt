@@ -1,0 +1,25 @@
+>>What happens when you initialize a repository?
+Why do you need to do it?
+
+Git creates a link to a directory.
+You need to do it in order to make it work
+before adding specific files to the repository
+to use it for version control.
+
+According to the documentation,
+"this command creates an empty Git repository
+- basically a .git directory with subdirectories
+for objects, refs/heads, refs/tags and template files.
+An initial HEAD file that references the HEAD
+of the master branch is also created."
+
+
+>>How is the staging area
+different from the working directory and the repository?
+What value do you think it offers?
+
+It's an extra step that allows for additional control
+over what goes into a given commit,
+helping keep it more logical and organised.
+The repository is where everything happens on Git,
+while a working directory is where you actually are working.
