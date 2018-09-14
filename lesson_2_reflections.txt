@@ -34,3 +34,10 @@ you can stage it. Once all files are ready, you can bulk-commit them
 with only one commit message that joins them together.
 
 
+>>What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+Branches can help with, i.a., creating backups, experimental features,
+different language versions, accessible versions for users
+with limitations, temporary campaigns and compliance
+with individual client specifications.
