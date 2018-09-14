@@ -23,3 +23,14 @@ over what goes into a given commit,
 helping keep it more logical and organised.
 The repository is where everything happens on Git,
 while a working directory is where you actually are working.
+
+
+>>How can you use the staging area to make sure you have one commit
+per logical change?
+
+You can break down problems that involve individual or groups of files
+into logical chunks. Once a file is ready for a commit,
+you can stage it. Once all files are ready, you can bulk-commit them
+with only one commit message that joins them together.
+
+
