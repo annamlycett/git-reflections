@@ -41,3 +41,12 @@ Branches can help with, i.a., creating backups, experimental features,
 different language versions, accessible versions for users
 with limitations, temporary campaigns and compliance
 with individual client specifications.
+
+
+>>How do the diagrams help you visualize the branch structure?
+
+They make it easier to follow how the project evolves with a number of
+different features and solutions developed potentially simultaneously.
+Being aware of each commit's parent makes it a logical evolution,
+while it would be all to easy to lose track of how the project got to
+where it is at a given point in time.
