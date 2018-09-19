@@ -1,37 +1,32 @@
 >>What happens when you initialize a repository?
 Why do you need to do it?
 
-Git creates a link to a directory.
-You need to do it in order to make it work
-before adding specific files to the repository
-to use it for version control.
+Git creates a link to a directory. You need to do it in order to make
+it work before adding specific files to the repository to use it for
+version control.
 
-According to the documentation,
-"this command creates an empty Git repository
-- basically a .git directory with subdirectories
-for objects, refs/heads, refs/tags and template files.
-An initial HEAD file that references the HEAD
-of the master branch is also created."
+According to the documentation, "this command creates an empty Git
+repository - basically a .git directory with subdirectories for
+objects, refs/heads, refs/tags and template files. An initial HEAD file
+that references the HEAD of the master branch is also created."
 
 
->>How is the staging area
-different from the working directory and the repository?
-What value do you think it offers?
+>>How is the staging area different from the working directory and the
+repository? What value do you think it offers?
 
-It's an extra step that allows for additional control
-over what goes into a given commit,
-helping keep it more logical and organised.
-The repository is where everything happens on Git,
-while a working directory is where you actually are working.
+It's an extra step that allows for additional control over what goes
+into a given commit, helping keep it more logical and organised. The
+repository is where everything happens on Git, while a working
+directory is where you actually are working.
 
 
->>How can you use the staging area to make sure you have one commit
-per logical change?
+>>How can you use the staging area to make sure you have one commit per
+logical change?
 
 You can break down problems that involve individual or groups of files
-into logical chunks. Once a file is ready for a commit,
-you can stage it. Once all files are ready, you can bulk-commit them
-with only one commit message that joins them together.
+into logical chunks. Once a file is ready for a commit, you can stage
+it. Once all files are ready, you can bulk-commit them with only one
+commit message that joins them together.
 
 
 >>What are some situations when branches would be helpful in keeping
@@ -65,3 +60,25 @@ the 'git show <commitID>' command is useful.)
 The way we represent a merged commit on the diagram allows us to
 track the actual progression of commit history, as well as commit
 parentage.
+
+
+>>What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+Automatic merging:
+Pros:
++ takes little time
++ distinct features merge easily
+Cons:
+- can lead to conflicting changes
+- may not compile as a result of errors
+- is not controlled
+
+Manual merging:
+Pros:
++ is controlled
++ conflicting features can be safely merged
++ more likely to compile in the end (if you know what you're doing)
+Cons:
+- is more time consuming
+- bugs could be introduced accidentally
