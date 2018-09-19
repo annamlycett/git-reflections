@@ -50,3 +50,18 @@ different features and solutions developed potentially simultaneously.
 Being aware of each commit's parent makes it a logical evolution,
 while it would be all to easy to lose track of how the project got to
 where it is at a given point in time.
+
+
+>>What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The result is one commit consisting of merged versions of files,
+all saved on the branch that was the most recently checked out.
+The commit has two or more parents and the history of the commit
+is non-linear. Running git log shows commits in timestamp order
+and it may be difficult to establish a commit's parent (this is where
+the 'git show <commitID>' command is useful.)
+
+The way we represent a merged commit on the diagram allows us to
+track the actual progression of commit history, as well as commit
+parentage.
