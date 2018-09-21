@@ -11,3 +11,15 @@ Git automatically stay up-to-date with your remote repository?
 
 Otherwise you could be uploading changes before they are ready to go
 live.
+
+
+>>Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+FORKS are used to copy another GitHub user's repository onto my GitHub
+account.
+
+CLONES are used to copy a GitHub or a local repository onto my machine.
+
+BRANCHES are a way of labelling commits within a file's history locally
+or on GitHub.
