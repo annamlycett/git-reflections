@@ -34,3 +34,17 @@ last known working state of the file/s. Also, if a new feature has been
 uploaded onto the remote (and then downloaded locally) but you're not
 ready to push your version up yet, you can still inspect the changes
 without losing either version.
+
+
+>>How would you collaborate without using Git or GitHub? What would be
+easier and what would be harder?
+
+EASIER:
+- To keep track of *your* version of the files
+HARDER:
+- To comment on specific lines
+- To keep track of project changes overall
+- To control the progress overall
+- To communicate between people filling different roles
+- To fork another person's project while maintaining the connection to
+  the original
