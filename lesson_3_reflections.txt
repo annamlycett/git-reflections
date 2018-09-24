@@ -23,3 +23,14 @@ CLONES are used to copy a GitHub or a local repository onto my machine.
 
 BRANCHES are a way of labelling commits within a file's history locally
 or on GitHub.
+
+
+>>What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+Having a local copy of the last known state of the remote allows you to
+check the differences between the version you're working on and the
+last known working state of the file/s. Also, if a new feature has been
+uploaded onto the remote (and then downloaded locally) but you're not
+ready to push your version up yet, you can still inspect the changes
+without losing either version.
