@@ -48,3 +48,30 @@ HARDER:
 - To communicate between people filling different roles
 - To fork another person's project while maintaining the connection to
   the original
+
+
+>>When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
++ Working directly in master:
+ PROS:
+ - Pushing/pulling is easier and doesn't require extra merges between
+   local branches
+ - Easier to keep track of the project as a whole
+ CONS:
+ - More difficult to work on separate features
+ - More difficult to collaborate
+ - If you need to revert changes, many features could be lost in the
+   process
+ - You might not want to publish certain features on master before
+   they're ready
+
++ Working in separate branches:
+ PROS:
+ - Easier to control the progress of the project
+ - Easier to collaborate
+ - Easier to work on experimental features
+ CONS:
+ - Extra steps involved when merging local changes that conflict with
+   those on GitHub
+ - Potentially more difficult to lose track of what version is where
